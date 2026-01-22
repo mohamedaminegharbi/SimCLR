@@ -452,47 +452,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📚 References
 
-### Papers
-
-1. **SimCLR** (Chen et al., 2020)  
-   [A Simple Framework for Contrastive Learning of Visual Representations](https://arxiv.org/abs/2002.05709)
-
-2. **SimCLRv2** (Chen et al., 2020)  
-   [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/abs/2006.10029)
-
-3. **LARS Optimizer** (You et al., 2017)  
-   [Large Batch Training of Convolutional Networks](https://arxiv.org/abs/1708.03888)
-
 ### Resources
 
 - [Official SimCLR Repository](https://github.com/google-research/simclr)
 - [PyTorch SimCLR Implementation](https://github.com/sthalles/SimCLR)
 - [Self-Supervised Learning Blog](https://lilianweng.github.io/posts/2021-05-31-contrastive/)
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Original SimCLR paper authors (Chen et al., Google Research)
-- PyTorch team for excellent deep learning framework
-- CIFAR-10 dataset creators (Krizhevsky & Hinton)
-- Open-source community for inspiration and support
-
----
-
-## 📧 Contact
-
-For questions or feedback, please open an issue or contact:
-
-- **Your Name** - [@yourhandle](https://twitter.com/yourhandle)
-- **Email** - your.email@example.com
-- **Project Link** - [https://github.com/yourusername/simclr-cifar10](https://github.com/yourusername/simclr-cifar10)
 
 ---
 
