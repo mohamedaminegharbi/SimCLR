@@ -189,12 +189,12 @@ Select method (1/2/3/4):
 - Demonstrates advantage of self-supervised learning
 
 **Output:**
-```
-<img width="3302" height="2968" alt="confusion_matrix_linear" src="https://github.com/user-attachments/assets/d1684106-d4fc-47b9-906e-c8d11cb9bc51" />      # Confusion matrix visualization
+
+<img width="3302" height="2968" alt="confusion_matrix_linear" src="https://github.com/user-attachments/assets/d1684106-d4fc-47b9-906e-c8d11cb9bc51" />      
 <img width="3302" height="2968" alt="confusion_matrix_finetune" src="https://github.com/user-attachments/assets/a9746cda-5dc1-42c8-aa41-4979354eba18" />
-<img width="5364" height="1469" alt="per_class_metrics_linear" src="https://github.com/user-attachments/assets/affda43f-1b7a-40e2-9698-d0db4ffcd83a" />     # Per-class performance charts
+<img width="5364" height="1469" alt="per_class_metrics_linear" src="https://github.com/user-attachments/assets/affda43f-1b7a-40e2-9698-d0db4ffcd83a" />    
 <img width="5364" height="1469" alt="per_class_metrics_finetune" src="https://github.com/user-attachments/assets/cf0f7e50-d038-4ebe-84b2-cdb0a891a919" />
-```
+
 
 ---
 
@@ -290,8 +290,6 @@ Where:
 
 **Intuition**: Pull positive pairs together, push negative pairs apart in embedding space.
 
-<img width="826" height="397" alt="simclr-general-architecture" src="https://github.com/user-attachments/assets/41e52a8c-9ad5-4f39-b85e-a946ea376c2f" />
-
 #### 5. Optimization
 
 **LARS Optimizer** (Layer-wise Adaptive Rate Scaling):
@@ -304,6 +302,8 @@ Where:
 lr(t) = lr_min + 0.5 × (lr_max - lr_min) × (1 + cos(πt / T))
 ```
 Where T = 800 epochs
+
+<img width="826" height="397" alt="simclr-general-architecture" src="https://github.com/user-attachments/assets/41e52a8c-9ad5-4f39-b85e-a946ea376c2f" />
 
 ### Evaluation Protocol
 
