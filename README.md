@@ -190,9 +190,20 @@ Select method (1/2/3/4):
 
 **Output:**
 
-<img width="3302" height="2968" alt="confusion_matrix_linear" src="https://github.com/user-attachments/assets/d1684106-d4fc-47b9-906e-c8d11cb9bc51" />      
+- Combined evaluation
+
+<img width="3302" height="2968" alt="confusion_matrix_linear" src="https://github.com/user-attachments/assets/d1684106-d4fc-47b9-906e-c8d11cb9bc51" />  
+
+- Confusion matrix when comparing with supervised baseline
+
 <img width="3302" height="2968" alt="confusion_matrix_finetune" src="https://github.com/user-attachments/assets/a9746cda-5dc1-42c8-aa41-4979354eba18" />
-<img width="5364" height="1469" alt="per_class_metrics_linear" src="https://github.com/user-attachments/assets/affda43f-1b7a-40e2-9698-d0db4ffcd83a" />    
+
+- Combined evaluation class metrics
+
+<img width="5364" height="1469" alt="per_class_metrics_linear" src="https://github.com/user-attachments/assets/affda43f-1b7a-40e2-9698-d0db4ffcd83a" />
+
+- Class metrics when comparing with supervised baseline
+
 <img width="5364" height="1469" alt="per_class_metrics_finetune" src="https://github.com/user-attachments/assets/cf0f7e50-d038-4ebe-84b2-cdb0a891a919" />
 
 
