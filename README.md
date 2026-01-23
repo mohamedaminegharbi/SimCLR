@@ -190,10 +190,10 @@ Select method (1/2/3/4):
 
 **Output:**
 ```
-confusion_matrix_linear.png      # Confusion matrix visualization
-confusion_matrix_finetune.png
-per_class_metrics_linear.png     # Per-class performance charts
-per_class_metrics_finetune.png
+<img width="3302" height="2968" alt="confusion_matrix_linear" src="https://github.com/user-attachments/assets/d1684106-d4fc-47b9-906e-c8d11cb9bc51" />      # Confusion matrix visualization
+<img width="3302" height="2968" alt="confusion_matrix_finetune" src="https://github.com/user-attachments/assets/a9746cda-5dc1-42c8-aa41-4979354eba18" />
+<img width="5364" height="1469" alt="per_class_metrics_linear" src="https://github.com/user-attachments/assets/affda43f-1b7a-40e2-9698-d0db4ffcd83a" />     # Per-class performance charts
+<img width="5364" height="1469" alt="per_class_metrics_finetune" src="https://github.com/user-attachments/assets/cf0f7e50-d038-4ebe-84b2-cdb0a891a919" />
 ```
 
 ---
@@ -223,6 +223,8 @@ simclr-cifar10/
 ### SimCLR Framework
 
 SimCLR learns representations by maximizing agreement between augmented views of the same image.
+
+<img width="4150" height="2021" alt="68747470733a2f2f737468616c6c65732e6769746875622e696f2f6173736574732f636f6e74726173746976652d73656c662d737570657276697365642f636f7665722e706e67" src="https://github.com/user-attachments/assets/42cd0a63-f51f-4c8b-8a44-d42800f4a727" />
 
 #### 1. Data Augmentation
 
@@ -287,6 +289,8 @@ Where:
 - Sum over all 2N-1 negative pairs
 
 **Intuition**: Pull positive pairs together, push negative pairs apart in embedding space.
+
+<img width="826" height="397" alt="simclr-general-architecture" src="https://github.com/user-attachments/assets/41e52a8c-9ad5-4f39-b85e-a946ea376c2f" />
 
 #### 5. Optimization
 
